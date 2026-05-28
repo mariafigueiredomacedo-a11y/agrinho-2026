@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <!-- Vinculação do CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, <span>Futuro Sustentável</span></h1>
+            <p>O equilíbrio perfeito entre a alta produtividade do campo e a preservação do meio ambiente através da inovação e da tecnologia verde.</p>
+            <a href="#pilares" class="btn">Conheça o Futuro</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO PILARES -->
+    <section id="pilares" class="section">
+        <h2 class="section-title">Os Pilares do Equilíbrio</h2>
+        <div class="grid">
+            <div class="card scroll-animate">
+                <div class="card-icon">🚜</div>
+                <h3>Produção Eficiente</h3>
+                <p>Uso de automação avançada, inteligência artificial e maquinários inteligentes para produzir mais alimentos utilizando menos espaço físico.</p>
+            </div>
+            <div class="card scroll-animate">
+                <div class="card-icon">🌱</div>
+                <h3>Preservação Ambiental</h3>
+                <p>Práticas ativas de reflorestamento, proteção de bacias hidrográficas e manejo correto do solo para garantir recursos para o futuro.</p>
+            </div>
+            <div class="card scroll-animate">
+                <div class="card-icon">☀️</div>
+                <h3>Tecnologia Verde</h3>
+                <p>Implementação de matrizes energéticas limpas nas fazendas, como energia solar, além do uso massivo de bioinsumos naturais.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO ALTERNADOR DE IMPACTO E MÉTRICAS -->
+    <section class="section metrics-section">
+        <h2 class="section-title">O Impacto Real da Mudança</h2>
+        
+        <div class="toggle-container">
+            <div class="toggle-wrapper">
+                <button class="toggle-btn active" id="btn-sustentavel" onclick="switchData('sustentavel')">Práticas Sustentáveis</button>
+                <button class="toggle-btn" id="btn-antigo" onclick="switchData('antigo')">Práticas Antigas</button>
+            </div>
+        </div>
+
+        <div class="metrics-box">
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <h4 id="label-1">Economia de Água</h4>
+                    <span class="counter" id="count-1" data-target="35">+35%</span>
+                </div>
+                <div class="metric-item">
+                    <h4 id="label-2">Emissão de CO₂</h4>
+                    <span class="counter" id="count-2" data-target="-22">-22%</span>
+                </div>
+                <div class="metric-item">
+                    <h4 id="label-3">Uso de Bioinsumos</h4>
+                    <span class="counter" id="count-3" data-target="45">+45%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>&copy; 2026 Agro Forte, Futuro Sustentável. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Vinculação do JavaScript Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
